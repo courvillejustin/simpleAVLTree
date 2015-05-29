@@ -38,6 +38,60 @@ tree.insert(17)
 });
 ```
 
+## Tree Methods
+
+### insert()
+Takes an int as input and inserts the new node into the tree
+
+### insert() Example
+```js
+var AVLTree = require('simpleavltree');
+
+/**
+ * Build the AVL tree
+ */
+var tree = new AVLTree(44);
+tree.insert(17)
+  	.insert(78);
+```
+
+### search()
+Takes an int as input and returns the node that was searched for.
+
+### search() Example
+```js
+var AVLTree = require('simpleavltree');
+
+/**
+ * Build the AVL tree
+ */
+var tree = new AVLTree(44);
+tree.insert(17)
+  	.insert(78);
+
+var searchedNode = tree.search(54)
+```
+
+### delete()
+Takes a node as input and deletes it from the tree.
+
+### delete() Example
+```js
+var AVLTree = require('simpleavltree');
+
+/**
+ * Build the AVL tree
+ */
+var tree = new AVLTree(44);
+tree.insert(17)
+  	.insert(78);
+
+/**
+ * Delete a node from the tree
+ */
+tree.search(54).deleteNode();
+```
+
 ### traverse()
 Takes a configuration object specifying the traversal order.
 ```js
@@ -47,6 +101,7 @@ Takes a configuration object specifying the traversal order.
   postOrder:true
 }
 ```
+
 ### traverse() Example
 ```js
 var AVLTree = require('simpleavltree');

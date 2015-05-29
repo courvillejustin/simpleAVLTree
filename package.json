@@ -1,6 +1,6 @@
 {
   "name": "simpleavltree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple AVL tree implementation. ",
   "main": "index.js",
   "scripts": {
