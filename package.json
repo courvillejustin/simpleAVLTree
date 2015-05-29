@@ -1,0 +1,23 @@
+{
+  "name": "simpleavltree",
+  "version": "0.0.1",
+  "description": "A simple AVL tree implementation. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/courvillejustin/simpleAVLTree.git"
+  },
+  "keywords": [
+    "AVL",
+    "tree"
+  ],
+  "author": "Justin Courville <justinacourville@gmail.com> (http://www.sinect.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/courvillejustin/simpleAVLTree/issues"
+  },
+  "homepage": "https://github.com/courvillejustin/simpleAVLTree"
+}
